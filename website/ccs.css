@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bg-container {
+  background-color:white;
+  padding: 13px;
+}
+  
+
+.logo {
+  width: 120px;
+  height: 150px;
+}
+.margin {
+  margin-left: 80px;
+}
+ 
+.button {
+  height: 36px;
+  width: 136px;
+  border-radius: 12px;
+  background-color: orange;
+  color: white;
+  border: 2px;
+}
+.jrds-card {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+ 
+.jrds-card-title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  background-color: rgb(184, 117, 30);
+}
+.jrds-wcu-card-description {
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.decoration {
+  text-decoration: underline;
+  color: blue;
+}
+.last-head {
+  font-size: 25px;
+  font-family: fantasy;
+}
+.head-para {
+  font-family:"caveat";
+  font-size: 24px;
+}
+
+.head {
+  font-size: 70px;
+  font-family:"serif";
+}
+#naviteam1,
+#naviteam2,
+#naviteam3,
+#naviteam10,
+#naviteam4,
+#naviteam5,
+#naviteam6,
+#naviteam7,
+#naviteam8,
+#naviteam9 {
+  font-weight: bold;
+  color: white;
+  font-family: "roboto";
+}
+
+#nav-donate-btn,
+#donatebut {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+#homebutton,
+#donate-btn {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 40px;
+  height: max-content;
+  padding: auto 23px;
+}
+
+.one {
+  display: none;
+}
+#section1 {
+  display: block;
+}
+
+.jrds-parent-card {
+  width: 100%;
+  display: flex;
+}
+.achievements-parent-card {
+  width: 100%;
+  display: flex;
+}
+ 
+.achievements-card {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+ 
+.achievements-card-title{
+  color: white;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  background-color: #400ba1;
+}
+.achievements-wcu-card-description {
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.jag-header {
+  width: 100%;
+}
+
+.contact-details {
+  width: 60%;
+}
+
+#donate-btn {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% {
+    background-color: hsl(9, 86%, 48%);
+    -webkit-box-shadow: 0 0 3px #b93f1a;
+  }
+  50% {
+    background-color: #ff0000;
+    -webkit-box-shadow: 0 0 20px #ff0000;
+  }
+  100% {
+    background-color: #b20000;
+    -webkit-box-shadow: 0 0 3px #b20000;
+  }
+}
+
+@-moz-keyframes glowing {
+  0% {
+    background-color: #b20000;
+    -moz-box-shadow: 0 0 3px #b20000;
+  }
+  50% {
+    background-color: #ff0000;
+    -moz-box-shadow: 0 0 20px #ff0000;
+  }
+  100% {
+    background-color: #b20000;
+    -moz-box-shadow: 0 0 3px #b20000;
+  }
+}
+
+@-o-keyframes glowing {
+  0% {
+    background-color: #b20000;
+    box-shadow: 0 0 3px #b20000;
+  }
+  50% {
+    background-color: #ff0000;
+    box-shadow: 0 0 20px #ff0000;
+  }
+  100% {
+    background-color: #b20000;
+    box-shadow: 0 0 3px #b20000;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #b20000;
+    box-shadow: 0 0 3px #b20000;
+  }
+  50% {
+    background-color: #ff0000;
+    box-shadow: 0 0 20px #ff0000;
+  }
+  100% {
+    background-color: #b20000;
+    box-shadow: 0 0 3px #b20000;
+  }
+}
+
+@media (min-device-width: 360px) and (max-device-width: 479px) {
+  .container .jrds-parent-card {
+    flex-wrap: wrap !important;
+  }
+  .logo-details,
+  .donate-details {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .contact-details {
+    width: 40%;
+  }
+}
+.navcolor{
+  background-color:#400ba1;
+  color: white;
+}
+.homeimage{
+  width: 270px;
+  height: 250px;
+}
+ .middayimage{
+  width: 170px;
+  height:250px;
+ }
+ .donateimg{
+  width: 100px;
+  height:90px;
+ }
+ .parawidth{
+  width:120px;
+  font-style: italic;
+  font-weight: 500;
+ }
+ .bottombg{
+  width:100%;
+  background-color:rgb(142, 164, 236);
+  color: white;
+ }
+ .bottom-head{
+  font-weight: bold;
+  font-size:large;
+  font-size: 40px;
+ }
+ .bottom-detials{
+  font-style: italic;
+  font-weight: 450;
+  margin-left: 60px;
+
+ }
+ .bottom-para{
+  font-size: 30px;
+ }
+ .abouthead{
+  font-weight: 500;
+   text-decoration: underline;
+ } 
+ .about-bg{
+ background-color: rgb(180, 225, 226);
+ }
+ .president-img{
+  width: 170px;
+  height: 180px;
+  
+ }
+ .pre-head{
+  font-weight: 700;
+  font-family: "caveat";
+ }
+ .pre-para{
+   width: 160px;
+  font-size: 12px;
+  font-weight: 500;
+ }
+ .chaiman-head{
+  font-size: 25px;
+  text-decoration: underline;
+  font-family: "caveat";
+  font-weight: 500;
+ }
+ .projects-head{
+  font-size: 23px;
+ }
+ .order-projects{
+  list-style-type: decimal;
+ }
+ .involved-head{
+  background-color: #d3840d;
+  color: white;
+  padding: 10px;
+  width: max-content;
+ }
+ .involved-h4{
+  color: #ff0000;
+ }
+ .reports-head{
+  color: #b93f1a;
+ }
+ .gallery-img{
+  width: 250px;
+  height: 180px;
+ }
+ .contact-head{
+  color: rgb(224, 149, 51);
+ }
+ .contact-2{
+  background-color: #d6cb27;
+  padding: 9px;
+  width: 25vw;
+ }
+ .gallery-head{
+  background-color: burlywood;
+  width: 20vw;
+  padding: 9px;
+  color: white;
+  font-size: 29px;
+ }
